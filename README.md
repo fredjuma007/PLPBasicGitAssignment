@@ -29,14 +29,12 @@ This repository demonstrates basic Git and GitHub usage.
 4. **Connecting to GitHub:**
    - Link the local repository to GitHub:
      ```bash
-     git remote add origin <repository-url>
-     ```
-     Replace `<repository-url>` with the URL of your GitHub repository.
-
+     git remote add origin <https://github.com/fredjuma007/PLPBasicGitAssignment.git>
+     
 ### Making Changes
 
 5. **Create a File:**
-   - Create `hello.txt` with the message "Hello, Git!".
+   - Create `new-text_file.txt` with the message "Hello, Git!".
 
 6. **Committing Changes:**
    - Stage the file:
@@ -45,7 +43,7 @@ This repository demonstrates basic Git and GitHub usage.
      ```
    - Commit the changes:
      ```bash
-     git commit -m "Add hello.txt with a greeting"
+     git commit -m "text file with a quote"
      ```
 
 ### Pushing to GitHub
